@@ -1,5 +1,6 @@
 // Composables
 import DefaultLayout from "@/layouts/default/DefaultLayout.vue"
+import DashboardView from '@/pages/core/ProjectDashboardView.vue'
 import CardListView from "@/pages/core/CardListView.vue"
 
 export default [
@@ -14,4 +15,8 @@ export default [
       },
     ],
   },
+  {
+    path: "/projects",
+    component: DashboardView
+  }
 ]
